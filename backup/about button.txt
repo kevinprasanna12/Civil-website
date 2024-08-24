@@ -1,0 +1,27 @@
+html
+
+  <button href="#"class="about-btn">Read More AboutUs</button>
+
+css
+
+.about-btn{
+  font-family: 'Gills Sans Nova', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #fff;
+  grid-area: 8/3/9/5;
+  width: 40%;
+  justify-self: center;
+  align-self: center;
+  height: 40px;
+  box-shadow: 0 0 5px black,0 0 0 yellow;
+  border-radius: 5px;
+  transition: 300ms ease-in-out;
+}
+.about-btn:hover{
+  color: black;
+  background-color: yellow;
+  box-shadow: 0 0 5px yellow,
+  0 0 25px yellow;;
+  border-radius: 20px;
+}
